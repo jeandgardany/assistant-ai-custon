@@ -1,0 +1,45 @@
+# Framework Web
+flask==3.1.0
+requests==2.32.3
+
+# Processamento de Dados
+numpy==2.2.0
+pandas==2.2.3
+scikit-learn==1.6.0
+scipy==1.14.1
+
+# Processamento de Texto
+beautifulsoup4==4.12.3
+bs4==0.0.2
+chardet==5.2.0
+
+# Processamento de Documentos
+PyPDF2==3.0.1
+python-docx==1.1.2
+python-magic-bin==0.4.14  # Para detecção de tipo MIME no Windows
+
+# Utilitários
+python-dotenv==1.0.0
+tqdm==4.66.1
+colorama==0.4.6
+click==8.1.7
+
+# Aceleração GPU (opcional)
+torch==2.2.0
+cupy-cuda11x==12.3.0
+
+# Processamento Paralelo
+joblib==1.3.2
+
+# Logging e Monitoramento
+structlog==24.1.0
+
+# Testes
+pytest==8.0.0
+pytest-cov==4.1.0
+
+# Desenvolvimento
+black==24.1.1
+isort==5.13.2
+flake8==7.0.0
+mypy==1.8.0
